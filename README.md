@@ -1,1 +1,3 @@
-# java_lab_sem_5
+# Java Lab - Semester 5
+It contains all the programs of Java as per the IPU curriculum.
+
