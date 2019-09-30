@@ -3,7 +3,6 @@
     "tasks": [
         {
             "label": "JC",
-            //"type": "shell",
             "command": "java",
             "windows": {
                 "command": "C:\\Program Files\\Java\\jdk-13\\bin\\javac.exe"
@@ -14,7 +13,6 @@
         },
         {
             "label": "JR",
-            //"type": "shell",
             "command": "java",
             "windows": {
                 "command": "C:\\Program Files\\Java\\jdk-13\\bin\\java.exe"
