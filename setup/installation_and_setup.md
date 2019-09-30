@@ -1,5 +1,5 @@
 # Installation and Setup Guide
-I use VS Code as my editor for Java programs therefore it is necessory to configure in to execute the Java programs. 
+I use VS Code as my editor for Java programs therefore it is necessory to configure it to execute the Java programs. 
 
 ## Steps
 1. Download and install the latest JDK.
