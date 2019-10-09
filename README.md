@@ -2,6 +2,3 @@
 
 # Java Lab - Semester 5
 It contains all the programs of Java Programming Lab as per the IPU curriculum. For more insights of Java refer to my repository named "awesome_Java".
-
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
