@@ -9,3 +9,20 @@ public class ProducerConsumerTest {
         c1.start();
     }
 }
+
+class CubbyHole {
+    private int contents;
+    private boolean available = false;
+
+    public synchronized int get() {
+        while (available == false) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+            }
+        }
+        available = false;
+        notifyAll();
+        return contents;
+    }
+}
