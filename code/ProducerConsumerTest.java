@@ -25,4 +25,16 @@ class CubbyHole {
         notifyAll();
         return contents;
     }
+    
+    public synchronized void put(int value) {
+        while (available == true) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+            }
+        }
+        contents = value;
+        available = true;
+        notifyAll();
+    }
 }
