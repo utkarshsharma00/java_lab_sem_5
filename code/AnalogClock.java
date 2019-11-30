@@ -2,7 +2,7 @@ import java.applet.Applet;
 import java.awt.*; 
 import java.util.*; 
 
-public class analogClock extends Applet { 
+public class AnalogClock extends Applet { 
 
 	@Override
 	public void init() 
