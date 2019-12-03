@@ -1,3 +1,5 @@
+// This file contains usage of different keywords used in Exception Handlin in Java.  
+
 // throw demonstration
 
 class Test
