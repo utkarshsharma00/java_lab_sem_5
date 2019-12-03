@@ -1,4 +1,5 @@
-// There are 2 ways to create a thread in Java. The first one is by Extending the Thread class and the second one is by implementing the runnable interface.
+// There are 2 ways to create a thread in Java. The first one is by Extending the Thread class 
+// and the second one is by implementing the runnable interface.
 
 // 1st way
 class MyThread extends Thread {
