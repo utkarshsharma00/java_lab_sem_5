@@ -1,16 +1,15 @@
+import java.util.* 
+
 public class ExceptionThrown 
 { 
 	static int divideByZero(int a, int b)
 	{ 
-		
 		int i = a/b; 
-		
 		return i; 
 	} 
 	 
 	static int computeDivision(int a, int b) 
-	{ 
-		
+	{
 		int res = 0; 
 		
 		try
@@ -33,13 +32,12 @@ public class ExceptionThrown
 		
 		try
 		{ 
-			int i = computeDivision(a,b); 
-		
+		     int i = computeDivision(a,b); 
 		} 
 		
 		catch(ArithmeticException ex) 
 		{ 
-			System.out.println(ex.getMessage()); 
+		     System.out.println(ex.getMessage()); 
 		} 
 	} 
 }
